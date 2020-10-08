@@ -6,6 +6,15 @@ class Child extends Component {
     state = { mark: [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '], status: 0, count: 0, win_list: [] }
     player = ['X', 'O']
 
+    componentWillUnmount() {
+        var viewport = document.querySelector('meta[name="viewport"]');
+
+        if (viewport) {
+            viewport.content = "initial-scale=0.1";
+            viewport.content = "width=600";
+        }
+    }
+
     checkStatus = (newMark) => {
         for (let i = 0; i < 3; i++) { if (newMark[0 + 3 * i] === 'X' && newMark[1 + 3 * i] === 'X' && newMark[2 + 3 * i] === 'X') return [0 + 3 * i, 1 + 3 * i, 2 + 3 * i]; }
         for (let i = 0; i < 3; i++) { if (newMark[0 + 3 * i] === 'O' && newMark[1 + 3 * i] === 'O' && newMark[2 + 3 * i] === 'O') return [0 + 3 * i, 1 + 3 * i, 2 + 3 * i]; }
