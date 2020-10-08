@@ -1,0 +1,109 @@
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Acme', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+table,
+th,
+td {
+  border: 4px solid;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  border-color: #F7DC6F;
+}
+
+td {
+  height: 80px;
+  width: 70px;
+  border-radius: 4mm;
+}
+
+.cell {
+  margin: auto;
+  max-width: 25px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+div {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+}
+
+/* .main {} */
+
+.gamefont {
+  font-family: 'Indie Flower', cursive;
+  display: inline;
+}
+
+.info {
+  margin: 10mm 10mm;
+  font-size: 30px;
+  height: auto;
+  vertical-align: top;
+}
+
+#player_1 {
+  padding: 2mm 5mm;
+  display: inline-block;
+  margin: 0 5mm;
+  border: 0.25mm solid green;
+  border-radius: 5mm;
+}
+
+#player_2 {
+  padding: 2mm 5mm;
+  display: inline-block;
+  margin: 0 5mm;
+  border: 0.25mm solid green;
+  border-radius: 5mm;
+}
+
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #F7DC6F;
+  padding: 25px;
+  margin-top: 25px;
+  height: 675px;
+  border-radius: 4mm;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#turn {
+  font-size: 30px;
+}
+
+.symbol {
+  font-size: 70px;
+  margin: 0;
+  line-height: 55px;
+}
+
+.status {
+  margin-top: 5mm;
+  height: 10mm;
+}
+
+#win_loss {
+  font-size: 30px;
+  border-radius: 4mm;
+}
