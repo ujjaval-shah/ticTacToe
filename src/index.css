@@ -75,12 +75,12 @@ div {
 }
 
 #root {
-  max-width: 600px;
+  min-width: 600px;
   margin: 0 auto;
   background-color: #F7DC6F;
   padding: 25px;
   margin-top: 25px;
-  height: 675px;
+  min-height: 700px;
   border-radius: 4mm;
 }
 
