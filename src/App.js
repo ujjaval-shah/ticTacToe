@@ -4,12 +4,13 @@ import './App.css';
 import Child from './child';
 
 function App() {
-  return (
-    <>
-      <h1> TIC - TAC - TOE </h1>
-      <Child />
-    </>
-  );
+
+	return (
+		<>
+			<p id="tictactoe"> TIC - TAC - TOE </p>
+			<Child />
+		</>
+	);
 }
 
 export default App;
