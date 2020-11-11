@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1000px) {
+
+    .container {
+        margin: 25px auto;
+    }
+
+    .grid-cell {
+        height: 110px;
+        width: 110px;
+        font-size: 75px;
+    }
+
+    .which_player {
+        font-size: 50px;
+    }
+
+    #WinLossContain {
+        width: 450px;
+    }
+
+    .player {
+        width: 175px;
+        align-items: flex-end;
+    }
+
+    #reload {
+        font-size: 50px;
+    }
+
+    /* margin-issue */
+
+    .game {
+        margin-right: 0;
+        justify-self: end;
+    }
+
+}

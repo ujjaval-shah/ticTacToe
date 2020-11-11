@@ -1,0 +1,61 @@
+@media only screen and (min-width: 730px) {
+
+
+    .container {
+        margin: 2.5vw auto;
+    }
+
+    #root {
+        display: grid;
+        grid-template-areas:
+            'name name'
+            'left ...'
+            'left ...'
+            'left ...';
+        align-content: start;
+        grid-template-columns: 4fr 6fr;
+        /* justify-content: center; */
+    }
+
+    #tictactoe {
+        grid-area: name;
+    }
+
+    .game {
+        grid-area: left;
+        align-self: flex-start;
+        justify-self: end;
+        margin-right: 0;
+    }
+
+    /* RELATIVENESS */
+
+    .grid-cell {
+        height: 11vw;
+        width: 11vw;
+        font-size: 7.5vw;
+    }
+
+    .which_player {
+        font-size: 5vw;
+    }
+
+    #WinLossContain {
+        width: 45vw;
+    }
+
+    .player {
+        width: 17.5vw;
+    }
+
+    #reload {
+        font-size: 5vw;
+    }
+
+    /* FONT_ISSUE */
+
+    #reload {
+        font-size: 5vw;
+    }
+
+}

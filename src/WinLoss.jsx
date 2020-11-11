@@ -19,7 +19,7 @@ function WinLoss(props) {
     if (props.content.status === 2) {
         return (
             <div id="WinLossContain" className="container">
-                <p id="win_loss container">
+                <p id="win_loss">
                     {`Oops... Match Draw.`}
                 </p>
             </div>

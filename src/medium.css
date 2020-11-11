@@ -1,0 +1,22 @@
+@media only screen and (min-width: 400px) {
+
+    .grid-cell {
+        height: 90px;
+        width: 90px;
+        font-size: 60px;
+    }
+
+    .which_player {
+        font-size: 40px;
+    }
+
+    #WinLossContain {
+        width: 360px;
+    }
+
+    .player {
+        width: 140px;
+    }
+
+
+}
